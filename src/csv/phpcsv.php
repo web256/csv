@@ -20,8 +20,9 @@
  *       $csv->downloadCsv($file_name, $field, $list, $select_field);
  *
  */
-namespace web256;
-class wcsv
+namespace csv;
+
+class phpcsv
 {
 
     /**

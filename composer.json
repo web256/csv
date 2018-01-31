@@ -15,7 +15,7 @@
 
     "autoload": {
         "psr-4": {
-            "web256\\": "src"
+            "csv\\": "src/csv"
         }
     }
 }

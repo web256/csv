@@ -1,5 +1,5 @@
 <?php
 require './vendor/autoload.php';
-use Fiesta\Fusion2016;
-$car = new Fusion2016();
-$car->info();
+use web256;
+$car = new wcsv();
+var_dump($car);
