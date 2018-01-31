@@ -1,0 +1,24 @@
+{
+    "name": "victorruan/csv",
+    "description": "this is php export csv file",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "web256",
+            "email": "wangdk369@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fusion\\": "src/Ford/Fusion",
+            "Ford\\Focus\\": "src/Ford/Focus",
+            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+        }
+    }
+}
