@@ -1,0 +1,7 @@
+{
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev":{
+        "web256/csv":"dev-master"
+    }
+}

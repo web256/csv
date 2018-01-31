@@ -1,0 +1,43 @@
+[
+    {
+        "name": "web256/csv",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/web256/csv.git",
+            "reference": "dd2afa2849abf8e9704ff3710b22e89ada782a6d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/web256/csv/zipball/dd2afa2849abf8e9704ff3710b22e89ada782a6d",
+            "reference": "dd2afa2849abf8e9704ff3710b22e89ada782a6d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "time": "2018-01-31T07:59:20+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Ford\\Escape\\": "src/Ford/Escape",
+                "Ford\\Fusion\\": "src/Ford/Fusion",
+                "Ford\\Focus\\": "src/Ford/Focus",
+                "Ford\\Fiesta\\": "src/Ford/Fiesta"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "web256",
+                "email": "wangdk369@gmail.com"
+            }
+        ],
+        "description": "this is php export csv file"
+    }
+]
