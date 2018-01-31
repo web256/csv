@@ -1,5 +1,5 @@
 {
-    "name": "victorruan/csv",
+    "name": "victorruan/wcsv",
     "description": "this is php export csv file",
     "type": "library",
     "license": "MIT",
