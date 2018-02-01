@@ -77,7 +77,7 @@ class phpcsv
             foreach ($select_field_list as $k) {
                 if (array_key_exists($k, $row)) {
 //                     $data[$k] = @iconv('utf-8', 'gbk', $row[$k]);
-                    $data[$k] = $row[$k];
+                    $data[$k] = '"'.$row[$k].'"';
                 }
             }
             // 占位符号，让最后一行超出隐藏
